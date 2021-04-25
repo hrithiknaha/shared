@@ -4,9 +4,14 @@
   "description": "New way of sharing resumes.",
   "main": "index.js",
   "scripts": {
-    "start" : "node index.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "Hrithik Naha",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongo": "^0.1.0",
+    "morgan": "^1.10.0"
+  }
 }
