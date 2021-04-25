@@ -1,0 +1,12 @@
+{
+  "name": "shared",
+  "version": "1.0.0",
+  "description": "New way of sharing resumes.",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node index.js"
+  },
+  "keywords": [],
+  "author": "Hrithik Naha",
+  "license": "ISC"
+}
