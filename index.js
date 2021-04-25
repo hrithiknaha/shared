@@ -3,6 +3,8 @@ const morgan = require("morgan");
 
 const app = express();
 
+require("./configs/DB");
+
 app.use(morgan("combined"));
 
 const PORT = process.env.PORT || 5000;
